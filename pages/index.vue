@@ -6,7 +6,9 @@ useHead({
 
 <template>
   <layout-page>
-    <layout-section />
+    <layout-section>
+      <entity-request-field />
+    </layout-section>
   </layout-page>
 </template>
 
