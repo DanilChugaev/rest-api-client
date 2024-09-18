@@ -28,6 +28,7 @@ const {
 
     <prime-input-text
       v-model="url"
+      @keydown.enter="sendRequest"
     />
 
     <prime-button

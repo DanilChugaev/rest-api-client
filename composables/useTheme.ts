@@ -3,7 +3,7 @@ const theme = 'blue'
 const lightTheme = `lara-light-${theme}`
 const darkTheme = `lara-dark-${theme}`
 
-const isDark = ref(false)
+const isDark = ref(true)
 
 export function useTheme() {
   const PrimeVue = usePrimeVue()

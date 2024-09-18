@@ -13,7 +13,7 @@ export default defineNuxtConfig({
         {
           id: 'theme-link',
           rel: 'stylesheet',
-          href: '/themes/lara-light-blue/theme.css',
+          href: '/themes/lara-dark-blue/theme.css',
         },
         { rel: 'icon', href: '/favicon.ico' },
       ],
@@ -31,7 +31,7 @@ export default defineNuxtConfig({
       cors: true,
       swr: false,
     },
-    '/errors/**': { ssr: false },
+    '/**': { ssr: false },
   },
 
   css: [
