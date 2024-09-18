@@ -1,0 +1,4 @@
+# The .nuxtignore file tells Nuxt to ignore files in your project’s root directory (rootDir) during the build phase.
+
+# ignore components inside ignore folder
+# components/ignore/*.vue
