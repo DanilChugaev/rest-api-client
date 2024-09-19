@@ -42,18 +42,3 @@ a:hover {
 p {
   margin: 0;
 }
-
-ul {
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacer-c);
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  display: flex;
-  align-items: flex-start;
-  gap: var(--spacer-c);
-}
