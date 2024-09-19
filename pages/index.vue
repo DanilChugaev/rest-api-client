@@ -7,6 +7,7 @@ useHead({
 <template>
   <layout-page>
     <layout-section class="main-page">
+      <entity-url-view />
       <entity-request-field />
       <entity-request-settings />
       <entity-request-response />

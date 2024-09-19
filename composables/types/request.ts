@@ -15,3 +15,9 @@ export interface IRequestParam {
   key: string
   value: string
 }
+
+export interface IRequestPayload {
+  method: RequestMethod
+  params: IRequestParam
+  body?: IRequestParam
+}
